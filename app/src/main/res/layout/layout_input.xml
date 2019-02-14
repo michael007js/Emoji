@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp">
+
+    <ImageView
+        android:id="@+id/click_change"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ask_icon_jp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_input"
+            android:cursorVisible="true"
+            android:gravity="start"
+            android:hint="请输入您的评论"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:textSize="13.8sp" />
+
+        <Button
+            android:id="@+id/click_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:text="提交" />
+    </LinearLayout>
+</LinearLayout><!--这是文字输入布局-->

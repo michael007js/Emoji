@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<share.sss.com.emoji.lib.view.SoftInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/softInputLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--第一个布局，包含文字输入框布局，触摸关闭页面布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--该View所起的作用为触摸空白处关闭输入页面-->
+        <View
+            android:id="@+id/mask"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!--该View为文字输入框布局-->
+        <FrameLayout
+            android:id="@+id/layout_text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+    <!--第一个布局，emoji表情-->
+    <FrameLayout
+        android:id="@+id/layout_emoji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </FrameLayout>
+
+
+</share.sss.com.emoji.lib.view.SoftInputLayout>
