@@ -19,7 +19,7 @@ No picture u say a j8!
   FaceManager.getInstance().addEmojiFace(new EmojiFaceResBean("01", R.drawable.comma_face_01));
 
 
-3.继承表情输入模块UI构造器BaseCustomInflaterDialogFragment并实现你的输入页逻辑，demo中已实现一个[InputDialogFragment](https://github.com/michael007js/Emoji/blob/master/app/src/main/java/com/sss/emoji/InputDialogFragment.java)类以供参考
+3.继承输入页模块UI构造器BaseCustomInflaterDialogFragment并实现你的输入页逻辑，demo中已实现一个[InputDialogFragment](https://github.com/michael007js/Emoji/blob/master/app/src/main/java/com/sss/emoji/InputDialogFragment.java)类以供参考
 
 
  ## Tip
