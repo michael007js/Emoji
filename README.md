@@ -30,6 +30,10 @@ No picture u say a j8!
 3.键盘处理：[SoftInputLayout](https://github.com/michael007js/Emoji/blob/master/lib/src/main/java/share/sss/com/emoji/lib/view/SoftInputLayout.java)
 
 
+混淆：
+
+-keep class share.sss.com.emoji.bean.**{*;}
+
  over
 
  By SSS
